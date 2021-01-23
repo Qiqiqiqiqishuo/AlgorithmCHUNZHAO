@@ -5,9 +5,7 @@
 
 ## 薄弱知识点导图
 
-![abc](C:\Users\98098\Desktop\abc.png)
-
-
+![](https://ftp.bmp.ovh/imgs/2021/01/5ba2e965198f0440.png)
 
 ## 薄弱题目
 
