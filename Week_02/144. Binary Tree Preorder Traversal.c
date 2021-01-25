@@ -15,7 +15,7 @@ void preorder(struct TreeNode* root, int* res, int* resSize) {
     if (!root) {
         return;
     }
-    if (root->left != NULL || root->right != NULL) {
+    if (root->left || root->right) {
         res[(*resSize)++] = root->val;
         preorder(root->left, res, resSize);
         preorder(root->right, res, resSize);
