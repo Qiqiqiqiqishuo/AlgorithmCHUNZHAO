@@ -54,7 +54,6 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = 0;
     int *res = malloc(sizeof(int) * 100);
     int top = 0;
-    int base = 0;
     while (root != NULL || top > 0) {
         while (root != NULL) {
             res[(*returnSize)++] = root->val;
